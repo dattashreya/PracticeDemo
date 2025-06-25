@@ -1,0 +1,17 @@
+
+<html>
+    <body>
+        <h1 id="demo"></h1>
+        <script type="text/javascript" charset="utf-8">
+            function renderApp() {
+                document.getElementById("demo").innerHTML="LoggedIn Welcome!!";
+            }
+            function renderLogout() {
+                document.getElementById("demo").innerHTML="LoggedOut Welcome!!";
+            }
+        
+        const auth = true;
+        auth ? renderApp() : renderLogout();
+        </script>
+    </body>
+</html>
